@@ -7,7 +7,7 @@ function Main() {
 
   // Add a new article
   const addArticle = (title, status) => {
-    const newArticle = { id: Date.now(), title, status }; // Add status to the article
+    const newArticle = { id: Date.now(), title, status }; // Add status to the article using date as id 
     setArticles((prevArticles) => [...prevArticles, newArticle]);
   };
 
